@@ -1,0 +1,107 @@
+* {
+  /*border: 1px solid gold;*/
+  color: black;
+}
+
+#main-jumbo {
+background-image: url('./img/pexels-photo-14676.png');
+color: black;
+height: 100%;
+width: 100%;
+}
+
+
+.main-title {
+  color: white;
+  text-align: center;
+  padding-bottom: 50%;
+}
+
+.large-header {
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+  background-size: cover;
+  background-position: center center;
+  z-index: 1;
+}
+
+a:hover, a:visited, a:link, a:active
+{
+    text-decoration: none;
+    color: white;
+}
+
+body {
+  /*background-image: url('./img/pexels-photo-14676.png');*/
+  font-family: 'Shadows Into Light Two', cursive;
+  /*font-family: 'Waiting for the Sunrise', cursive;*/
+  /*font-family: 'Bubbler One', sans-serif;*/
+}
+
+
+h1 {
+  padding-top: 30%;
+}
+
+.myPic {
+  border-radius: 25px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  /*border: 1px solid green;*/
+  margin-bottom: .5em;
+}
+
+.aboutMe {
+  text-align: center;
+  padding-bottom: 50%;
+}
+.title {
+  color: black;
+  text-align: center;
+}
+
+/*.projectsSection {
+  /*background-image: url('./img/pexels-photo-14676.png');*/
+  color: white;
+  text-align: center;
+  padding-bottom: 50%;
+  text-decoration: none;
+  height: 30%;
+  width: 100%;*/
+}
+
+.email {
+  text-align: center;
+}
+
+
+.contact {
+  text-align: center;
+  color: black;
+}
+
+ /*carousel style*/
+.pCarousel {
+  color: white;
+}
+
+.carousel{
+    background: #2f4357;
+    margin-top: 20px;
+}
+.carousel .item{
+    min-height: 280px; /* Prevent carousel from being distorted if for some reason image doesn't load */
+}
+.carousel .item img{
+    margin: 0 auto; /* Align slide image horizontally center */
+}
+.projectCarousel{
+	margin: 20px;
+}
+.carousel-caption {
+    position: relative;
+    left: auto;
+    right: auto;
+}
