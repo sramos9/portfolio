@@ -10,12 +10,16 @@
 
   .responsiveName {
     font-family: 'Shadows Into Light Two', cursive;
-    color: #d90075;
+    color: #d90075!important;
     font-weight: bolder;
     font-size: 60%;
-    visibility: visible;
+    visibility: visible!important;
     margin: 0 auto;
     text-align: center;
+  }
+
+  .responsiveName h1 {
+    font-size: 4.5rem;
   }
   #menu {
     margin-bottom:20%;
@@ -69,7 +73,8 @@
 /*NORMAL CSS HERE */
 
 .responsiveName {
-  display: hidden;
+  display: hidden!important;
+  color: white;
 }
 
 a:hover, a:visited, a:link, a:active
