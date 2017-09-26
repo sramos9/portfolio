@@ -5,9 +5,7 @@
 
 @media only screen and (max-width: 830px) {
 
-  /*#logo {
-    display: none;
-    }*/
+
 
   #logo {
   font-size: 2px;
@@ -60,19 +58,11 @@
     display: inline-block;
     margin: 0 auto;
     padding:5%;
-
-
   }
 
 }
 
-.responsiveLogo {
-  /*text-indent: 100%;
-  white-space: nowrap;
-  overflow: hidden;*/
-  /*display: none;*/
-
-}
+/*NORMAL CSS HERE */
 
 a:hover, a:visited, a:link, a:active
 {
