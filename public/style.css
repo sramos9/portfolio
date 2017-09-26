@@ -4,9 +4,17 @@
 }
 
 @media only screen and (max-width: 830px) {
-  #logo {
+
+  /*#logo {
     display: none;
+    }*/
+
+  #logo {
+  font-size: 2px;
+  font-family: sans-serif;
+  width: -100%;
   }
+
   #menu {
     margin-bottom:20%;
   }
@@ -15,17 +23,56 @@
     display: inline-block;
   }
 
-  .contact {
-    display: block;
+  #myPic {
+    /*margin-top: 10%;
+    left:10%;*/
+    justify-content: center;
+    margin-left: 20%;
+    /*z-index: -1;
+    position: relative;*/
+  }
+
+  #photoCol {
     margin: 0 auto;
   }
 
-  #myGit, #myLinkedIn, #myGAProfile {
+  #aboutCol {
+    margin: 0 auto;
+
+  }
+
+  .contact {
+    margin: 0 auto;
+    margin-left: 10%:
+  }
+
+  .contactBlurb {
+    padding-bottom: 5%;
+  }
+
+  .contactSec {
+    display: block;
+    margin: 0 auto;
+
+  }
+
+  #emailDiv, #myGit, #myLinkedIn, #myGAProfile {
     display: inline-block;
+    margin: 0 auto;
+    padding:5%;
+
+
   }
 
 }
 
+.responsiveLogo {
+  /*text-indent: 100%;
+  white-space: nowrap;
+  overflow: hidden;*/
+  /*display: none;*/
+
+}
 
 a:hover, a:visited, a:link, a:active
 {
@@ -67,7 +114,7 @@ width: 100%;
 }
 
 #photoCol {
-margin-left: 20%;
+/*margin-left: 20%;*/
 
 }
 
@@ -94,11 +141,6 @@ line-height: 1.5;
   color: #d90075;
   text-align: center;
   margin-top: 8%;
-}
-
-
-.email {
-  text-align: center;
 }
 
 
@@ -150,7 +192,7 @@ line-height: 1.5;
 
 }
 
- #myGit, #myLinkedIn, #myGAProfile, {
+ #emailDiv, #myGit, #myLinkedIn, #myGAProfile, {
     margin: 0 auto;
     align-items: center;
     position: relative;
@@ -178,6 +220,7 @@ line-height: 1.5;
     text-shadow: #EDEDED 3px 2px 0;
     position: relative;
     left: 3%;
+    /*font-size: 1000%;*/
   }
   #logo:after {
     content:"Samantha Ramos";
