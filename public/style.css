@@ -33,10 +33,6 @@ a:hover, a:visited, a:link, a:active
     color: black;
 }
 
-.container {
-  display: inline-block;
-}
-
 body {
   /*background-image: url('./img/pexels-photo-14676.png');*/
   font-family: 'Shadows Into Light Two', cursive;
@@ -61,8 +57,18 @@ width: 100%;
   font-weight: bolder;
   width: 100%;
   margin-top: 4%;
+}
+
+.row {
+ align-items: center;
+ justify-content: center
+}
+
+#photoCol {
+margin-left: 20%;
 
 }
+
 
 #myPic {
   height: 70%;
@@ -169,6 +175,7 @@ line-height: 1.5;
     line-height: 1;
     text-shadow: #EDEDED 3px 2px 0;
     position: relative;
+    left: 3%;
   }
   #logo:after {
     content:"Samantha Ramos";
